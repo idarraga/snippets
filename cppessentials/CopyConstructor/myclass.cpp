@@ -1,9 +1,16 @@
+/*
+ * John Idarraga <john@idarraga.com> 2015
+*/
+
 #include "myclass.h"
 
 #include <QDebug>
 #include <QString>
 
-
+/*!
+ * \brief MyClass::MyClass
+ *        The constructor
+ */
 MyClass::MyClass()
 {
     p = new int[__arraysize];
@@ -30,8 +37,6 @@ MyClass::MyClass(const MyClass & t)
 /*!
  * \brief MyClass::operator =
  *        The copy assignment
- * \param t
- * \return
  */
 MyClass &MyClass::operator=(const MyClass & t)
 {

@@ -1,6 +1,10 @@
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
+/*
+ * John Idarraga <john@idarraga.com> 2015
+*/
+
 #define __arraysize 10
 
 class MyClass

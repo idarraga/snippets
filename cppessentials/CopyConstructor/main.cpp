@@ -1,3 +1,6 @@
+/*
+ * John Idarraga <john@idarraga.com> 2015
+*/
 
 #include <QCoreApplication>
 
